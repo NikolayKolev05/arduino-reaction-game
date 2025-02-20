@@ -63,11 +63,11 @@ void loop() {
 
 void adjustRequiredTime() {
   if (requiredTime > 200) {
-    requiredTime -= 50; // Decrease by 50ms
+    requiredTime -= 50;
   } else if (requiredTime > 140) {
-    requiredTime -= 20; // Decrease by 20ms
+    requiredTime -= 20;
   } else {
-    gameWon(); // If requiredTime reaches 140ms, the game is beaten
+    gameWon(); 
   }
 }
 
