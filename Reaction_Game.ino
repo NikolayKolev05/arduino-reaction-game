@@ -67,7 +67,7 @@ void adjustRequiredTime() {
   } else if (requiredTime > 140) {
     requiredTime -= 20;
   } else {
-    gameWon(); 
+    gameWon();
   }
 }
 
